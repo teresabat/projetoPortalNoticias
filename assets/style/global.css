@@ -9,7 +9,7 @@
   --bg-color: #0f172a;
   --stroke-color: #1e293b;
 
-  --text-color-primary: #F1F5F;
+  --text-color-primary: #f1f5f9;
   --text-color-secondary: #cbd5e1;
 
   --h1: 800 24px/135% var(--font-family);
@@ -44,4 +44,13 @@ h1,
 h2,
 h3 {
   font: inherit;
+}
+
+/* utility-first */
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
